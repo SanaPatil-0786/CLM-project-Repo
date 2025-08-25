@@ -1,0 +1,70 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>CLM-project-Repo</groupId>
+  <artifactId>CLM-project-Repo-HeaderInformation</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>HeaderInformation</name>
+  <description>CLM API Header information section</description>
+  
+  <dependencies>
+	  
+	  
+	  <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>5.5.5</version>
+</dependency>
+	    
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>7.11.0</version>
+</dependency>
+
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>7.11.0</version>
+</dependency>
+
+
+
+
+<!-- added junit dependacy for error in testrunner file -->
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13.2</version>
+    <scope>test</scope>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.19.2</version>
+</dependency> 
+
+<!-- https://mvnrepository.com/artifact/org.codehaus.groovy/groovy -->
+<!--<dependency>
+    <groupId>org.codehaus.groovy</groupId>
+    <artifactId>groovy</artifactId>
+    <version>3.0.25</version>
+</dependency>
+-->
+
+<dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.10.1</version> <!-- or latest version -->
+</dependency>
+
+  	
+  </dependencies>
+  
+  
+</project>

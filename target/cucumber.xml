@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.342" tests="3" skipped="0" failures="1" errors="0">
+<testcase classname="verify contract header infomation api of CLM project" name="verify GetTokenAPI and take generated token" time="0.031">
+<system-out><![CDATA[
+Given add request payload for "GetAuthToken"................................passed
+When post "GetAuthToken" http API request...................................passed
+Then take "tokenvalue" from responce payload for "GetAuthToken".............passed
+And check response status code is "200".....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="verify contract header infomation api of CLM project" name="verify SaveHeaderInformation and take data key value" time="0.004">
+<system-out><![CDATA[
+Given add request payload for "SaveHeaderInformation".......................passed
+When post "SaveHeaderInformation" http API request..........................passed
+Then take "data" from responce payload for "GetAuthToken"...................passed
+And check response status code is "200".....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="verify contract header infomation api of CLM project" name="verify GetHeaderInformation API is contain same details of post headerinformaiton API" time="0.016">
+<failure/>
+<system-out><![CDATA[
+Given add request payload for "GetContractHeaderDetails"....................passed
+When Get "GetContractHeaderDetails" http API request........................undefined
+Then compare "data" from responce payload is contain same keys and values of post data.skipped
+And check response status code is "200".....................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

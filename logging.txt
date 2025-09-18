@@ -1,0 +1,56 @@
+Request method:	GET
+Request URI:	http://192.168.10.64:2025/api/Contract/GetContractHeaderDetails?contractId=261
+Proxy:			<none>
+Request params:	<none>
+Query params:	contractId=261
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjIiLCJyb2xlIjoiIiwibmJmIjoxNzU3NTgzNTgxLCJleHAiOjE3NTgxODgzODEsImlhdCI6MTc1NzU4MzU4MX0.zm430jkjDZFB7QBltLyE83GgmzzuUg9sacBvgx1_ENs
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+Date: Wed, 17 Sep 2025 09:52:04 GMT
+
+{
+    "wasSuccessful": true,
+    "message": "GetContractHeaderInformation API are successfully loaded",
+    "data": {
+        "contractheaderinformationList": [
+            {
+                "contractid": 261,
+                "contracttitle": "Title_4deacb5b-ef4e-4745-89b5-7d763e80143e",
+                "contractnumber": "1Point1/2504/015",
+                "contractstageid": 1,
+                "contractStage": "Initiation",
+                "contractdescription": "Description_28bb344d-8900-4922-90b0-6155af2c6204",
+                "contractkeywords": "KEYWORD_66,KEYWORD_11",
+                "contractexecutedat": "Location_54",
+                "annualcontractvalue": 7657.00,
+                "currencyid": 53,
+                "currency": "Initiation",
+                "typeid": 13,
+                "contractType": "Fully Executed Agreements",
+                "categoryid": 18,
+                "contractCategory": "Master Service Agreement And Letter Of Intent",
+                "classificationid": 28,
+                "contractClassification": "Before 3 Month",
+                "processid": 31,
+                "contractProcess": "Amendment",
+                "createdon": "2025-04-03T16:00:10.287347",
+                "createdby": 2,
+                "createdByName": "usr_managerlegal (Manager - Legal)",
+                "modifiedon": "2025-09-17T15:22:04.290847",
+                "modifiedby": 3,
+                "modifiedByName": "usr_ceo (CHRO 1Point1)",
+                "isactive": 1
+            }
+        ],
+        "approvalFlagDetailDto": null
+    }
+}

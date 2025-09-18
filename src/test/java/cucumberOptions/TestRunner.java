@@ -8,15 +8,16 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features="src/test/java/features",
 		glue = {"stepDefination"},
-		dryRun=true,
-		publish = true,
+	    dryRun=false,
+		publish = true,       //for generate public report provid link
+		tags = "@run"
 		//tags = "@getBookStatus" 
-		plugin = { 
+		//plugin = { 
 		//		"pretty",
 		 //       "html:target/cucumber-html-report",
 		   //   "json:target/cucumber.json"
 		//        "junit:target/cucumber.xml"
-		      }
+		     // }
 				)
 public class TestRunner {
 }
